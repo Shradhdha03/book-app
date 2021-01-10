@@ -1,0 +1,6 @@
+[
+    {
+        "name": "book-app",
+        "imageUri": "312408222418.dkr.ecr.us-east-1.amazonaws.com/book-app:latest"
+    }
+]
