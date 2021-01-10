@@ -1,0 +1,32 @@
+#stage1: ui-build
+FROM node:14.8.0-slim AS ui-build
+
+WORKDIR /usr/src/app
+
+# Bundle source code for UI
+COPY client/ ./client/
+
+# builing React UI
+RUN cd client && npm install && npm run build
+
+#---------------------
+#stage2: server-build
+FROM node:14.8.0-slim AS server-build
+
+WORKDIR /root/
+
+# copying build from stage1 for front-end code
+COPY --from=ui-build /usr/src/app/client/build ./client/build
+
+# copying files for back-end code
+COPY package*.json ./
+
+COPY index.js .
+
+COPY books.json .
+
+RUN npm install
+
+EXPOSE 80
+
+CMD ["node","index.js"]

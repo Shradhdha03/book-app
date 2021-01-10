@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+        "author": "Susan Cain",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41hUEwpRWKL._SX307_BO1,204,203,200_.jpg"
+    },
+    {
+        "name": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "image": "https://m.media-amazon.com/images/I/41ZNYSzSV6L._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "image": "https://m.media-amazon.com/images/I/81ezCJTXFKL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "name": "Drive: The Surprising Truth About What Motivates Us",
+        "author": "Daniel H. Pink",
+        "image": "https://m.media-amazon.com/images/I/81pUH8Q8GkL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "name": "Blue Ocean Shift: Beyond Competing - Proven Steps to Inspire Confidence and Seize New Growth",
+        "author": "Renee Mauborgne, W. Chan Kim",
+        "image": "https://m.media-amazon.com/images/I/81opKlLzztL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "name": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+        "author": "Jonathan Haidt",
+        "image": "https://m.media-amazon.com/images/I/61UAAOtxuzL._AC_UY327_FMwebp_QL65_.jpg"
+    }
+]
